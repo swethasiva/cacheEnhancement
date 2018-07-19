@@ -1,0 +1,11 @@
+python Energy_Calculation.py blackscholes/blackscholes.txt > 1_Energy/blackscholes_EW_Energy_Consumption.txt
+python Energy_Calculation.py bodytrack/bodytrack.txt > 1_Energy/bodytrack_EW_Energy_Consumption.txt
+python Energy_Calculation.py canneal/canneal.txt > 1_Energy/canneal_EW_Energy_Consumption.txt
+python Energy_Calculation.py dedup/dedup.txt > 1_Energy/dedup_EW_Energy_Consumption.txt
+python Energy_Calculation.py ferret/ferret.txt > 1_Energy/ferret_EW_Energy_Consumption.txt
+python Energy_Calculation.py fluidanimate/fluidanimate.txt > 1_Energy/fluidanimate_EW_Energy_Consumption.txt
+python Energy_Calculation.py freqmine/freqmine.txt > 1_Energy/freqmine_EW_Energy_Consumption.txt
+python Energy_Calculation.py streamcluster/streamcluster.txt > 1_Energy/streamcluster_EW_Energy_Consumption.txt
+python Energy_Calculation.py swaptions/swaptions.txt > 1_Energy/swaptions_EW_Energy_Consumption.txt
+python Energy_Calculation.py vips/vips.txt > 1_Energy/vips_EW_Energy_Consumption.txt
+python Energy_Calculation.py x264/x264.txt > 1_Energy/x264_EW_Energy_Consumption.txt

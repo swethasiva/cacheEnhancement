@@ -1,0 +1,43 @@
+1. Write variation with Inter-Set and Intra-Set with LRU
+2. Implement EqualWrites for Intra-Set Variation
+3. Write variation with Inter-Set and Intra-Set with EqualWrites
+4. Number of 0 to 1 & 1 to 0 transitions with LRU
+5. Number of 0 to 1 & 1 to 0 transitions with EqualWrites
+6. Implement LER Algorithm
+7. Number of 0 to 1 & 1 to 0 transitions with LER
+8. Implement Flip-n-write Algorithm
+9. Compare the total number of transitions with LRU
+10. Implement new Algorithm
+11. Write variation with Inter-Set and Intra-Set with new Algorithm
+12. Number of 0 to 1 & 1 to 0 transitions with new algorithm
+13. Distribution of writes within the block with LRU
+14. Distribution of writes within the block with new Algorithm
+
+New Algorithm
+
+Initialize all the block with counter as threshold/2,
+
+(Reduce the Error Rate)
+Compute Hamming Distance between Existing block and New block, Compute number of 0 to 1 and 1 to 0 transitions
+if Choose the block with minimum number of 0 to 1 transitions & should be less than N/4
+	Store the data in the original form
+else if Choose the block, if it has 0 to 1 transitions & should be less than N/4 in inverted form
+	Store the data in flipped form - Update the Flip bit
+else 
+	choose the block, which has least number of 0 to 1 transition either in data / inverted form
+
+(Reducing Intra-Varition within the set)
+If counter != threshold - 1 then
+	Increment the counter value of current block
+else if counter == threshold-1 then
+	Identify the block which has zero counter value, If found,
+		Write the new data to that block,
+	else
+		decrement remaining block counter value.
+
+While writing data inside the block,
+maintain flag common for each set, which mark the starting position of the data.
+During write/read operation, check the flag and write/read accordingly
+
+For every Million write within the set change the flag value (starting position of the data) and rearrange.
+(This will encounter the security threat)

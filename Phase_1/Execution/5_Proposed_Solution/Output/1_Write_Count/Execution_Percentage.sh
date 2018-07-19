@@ -1,0 +1,12 @@
+python Calculating_Percentage.py Intraset_Variations/blackscholes_prp_Intraset.csv > Percentage/blackscholes_prp_percentage.csv
+python Calculating_Percentage.py Intraset_Variations/bodytrack_prp_Intraset.csv > Percentage/bodytrack_prp_percentage.csv
+python Calculating_Percentage.py Intraset_Variations/canneal_prp_Intraset.csv > Percentage/canneal_prp_percentage.csv
+python Calculating_Percentage.py Intraset_Variations/dedup_prp_Intraset.csv > Percentage/dedup_prp_percentage.csv
+python Calculating_Percentage.py Intraset_Variations/facesim_prp_Intraset.csv > Percentage/facesim_prp_percentage.csv
+python Calculating_Percentage.py Intraset_Variations/ferret_prp_Intraset.csv > Percentage/ferret_prp_percentage.csv
+python Calculating_Percentage.py Intraset_Variations/freqmine_prp_Intraset.csv > Percentage/freqmine_prp_percentage.csv
+python Calculating_Percentage.py Intraset_Variations/streamcluster_prp_Intraset.csv > Percentage/streamcluster_prp_percentage.csv
+python Calculating_Percentage.py Intraset_Variations/swaptions_prp_Intraset.csv > Percentage/swaptions_prp_percentage.csv
+python Calculating_Percentage.py Intraset_Variations/vips_prp_Intraset.csv > Percentage/vips_prp_percentage.csv
+python Calculating_Percentage.py Intraset_Variations/x264_prp_Intraset.csv > Percentage/x264_prp_percentage.csv
+

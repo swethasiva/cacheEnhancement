@@ -1,0 +1,12 @@
+python Average_write.py blackscholes/blackscholes.txt > 5_WriteCount/blackscholes_EqualWrites_Write.txt
+python Average_write.py bodytrack/bodytrack.txt > 5_WriteCount/bodytrack_EqualWrites_Write.txt
+python Average_write.py canneal/canneal.txt > 5_WriteCount/canneal_EqualWrites_Write.txt
+python Average_write.py dedup/dedup.txt > 5_WriteCount/dedup_EqualWrites_Write.txt
+python Average_write.py facesim/facesim.txt > 5_WriteCount/facesim_EqualWrites_Write.txt
+python Average_write.py ferret/ferret.txt > 5_WriteCount/ferret_EqualWrites_Write.txt
+python Average_write.py fluidanimate/fluidanimate.txt > 5_WriteCount/fluidanimate_EqualWrites_Write.txt
+python Average_write.py freqmine/freqmine.txt > 5_WriteCount/freqmine_EqualWrites_Write.txt
+python Average_write.py streamcluster/streamcluster.txt > 5_WriteCount/streamcluster_EqualWrites_Write.txt
+python Average_write.py swaptions/swaptions.txt > 5_WriteCount/swaptions_EqualWrites_Write.txt
+python Average_write.py vips/vips.txt > 5_WriteCount/vips_EqualWrites_Write.txt
+python Average_write.py x264/x264.txt > 5_WriteCount/x264_EqualWrites_Write.txt

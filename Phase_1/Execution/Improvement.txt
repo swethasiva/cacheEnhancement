@@ -1,0 +1,4 @@
+1. Instead of check block by block, check column wise in the set
+2. Number of cores = 4
+3. CPI in Swaptions
+4. Amat, Hit Time, Miss Penalty

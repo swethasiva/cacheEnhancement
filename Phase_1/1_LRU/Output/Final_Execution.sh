@@ -1,0 +1,11 @@
+sh Execution_Write_Count.sh
+sh Execution_Transition_Count.sh
+sh Execution_IPC.sh
+sh Execution_Miss_Rate.sh
+sh Execution_Average_write.sh
+sh Execution_Energy.sh
+sh Execution_mcpat.sh
+sh Execution_Time_Analysis.sh
+cd 1_Write_Count
+sh Execution_Percentage.sh
+cd ..
